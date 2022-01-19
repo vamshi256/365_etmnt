@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="movies.css">
+    <title>365</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="pages">
+         <a id="logo" href="E:\365-enmt\365-main\homeassets\home.html">365</a>
+         <a href="E:\365-enmt\365-main\movies\movies.html">movies</a>
+         <a href="#">series</a>
+         <a href="#">tvshows</a>
+        </div>
+    </div>
+    <div class="slidecnt">
+       <div class="slides">
+           <img class="sldimg" src="E:\365-enmt\365-main\homeassets\homepgassets\img 1.jpg" alt="">   
+       </div>
+       <div class="slides">
+             <img  class="sldimg" src="E:\365-enmt\365-main\homeassets\homepgassets\img4.jpg" alt="">
+       </div>
+       <div class="slides">
+           <img class="sldimg" src="E:\365-enmt\365-main\homeassets\homepgassets\img5.jpg" alt="">
+       </div>
+
+       <button id="prvs" onclick="prvsslide(-1)">&#10094;</button>
+       <button id="next" onclick="nextslide(+1)">&#10095;</button>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Gener</button>
+        <div class="dropdown-content">
+        <a href="#movies" onclick="genersearch('#action')">Action</a>
+        <a href="#movies" onclick="genersearch('#sci-fci')">scific</a>
+        <a href="#movies" onclick="genersearch('#drama')">drama</a>
+        <a href="#movies" onclick="genersearch('.actmvcd')">All</a>
+        </div>
+      </div>
+
+    <div class="searchbox">
+        <input type="search" id="search" placeholder="search your movie Name" value="" >
+        <input type="button" id="check" onclick="search()">
+    </div>
+
+    </div>
+    <div class="movies" >  
+        <h1 id="movies">Movies</h1>
+        <div class="actmvcd" id="action" style="background-image: url(' lovestory.jpg');">
+            <div class="mvdes">
+                <h3>Love story</h3>
+                <p>Lorem is a fell good love story well done rob gnion true</p>
+             </div>
+        </div>
+
+           <div class="actmvcd" id="action" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/eng2.jpg');">
+               <div class="mvdes">
+                   <h3>gucci</h3>
+                   <p>Lorem is a fell good love story</p>
+                </div>
+           </div>
+
+           <div class="actmvcd" id="drama" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/eng3.jpg');">
+            <div class="mvdes">
+                <h3>adventure</h3>
+                <p>Lorem is a fell good love story well done rob gnion true</p>
+             </div>
+            </div>
+           
+            <div class="actmvcd" id="sci-fci" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/eng4.jpg');">
+                <div class="mvdes">
+                    <h3>picnic</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="action" style="background-image: url('EE:/365-enmt/365-main/homeassets/homepgassets/eng5.jpg');">
+                <div class="mvdes">
+                    <h3>avtar</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="drama" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/eng6.jpg');">
+                <div class="mvdes">
+                    <h3>harry potter</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="drama" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/eng7.jpg');">
+                <div class="mvdes">
+                    <h3>enemy</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="action" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/bladerunner.jpg');">
+                <div class="mvdes">
+                    <h3>bladerunner</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="action" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/gamer.jpg');">
+                <div class="mvdes">
+                    <h3>gamer</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="sci-fci"style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/goldeneye.jpg');">
+                <div class="mvdes">
+                    <h3>goldeneye</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="sci-fci" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/hercules.jpg');">
+                <div class="mvdes">
+                    <h3>hercules</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="sci-fci" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/kate.jpg');">
+                <div class="mvdes">
+                    <h3>kate</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="action"style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/priest.jpg');">
+                <div class="mvdes">
+                    <h3>priest</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="drama" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/skyfall.jpg');">
+                <div class="mvdes">
+                    <h3>skyfall</h3>
+                    <p>Lorem is a fell good love story well done rob gnion true</p>
+                 </div>
+            </div>
+
+            <div class="actmvcd" id="action" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/aviator.jpg');">
+                <div class="mvdes">
+                    <h3>Aviator</h3>
+                    <p>adventure,action,thrilling</p>
+                 </div>
+                </div>
+            
+            <div class="actmvcd" id="sci-fci" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/afterearth.jpg');">
+                <div class="mvdes">
+                    <h3>After earth</h3>
+                     <p>sci-fci,action,adventure</p>
+                </div>
+            </div>
+            
+            <div class="actmvcd" id="drama" style="background-image: url('E:/365-enmt/365-main/homeassets/homepgassets/shutterisland.jpg');">
+                <div class="mvdes">
+                    <h3>shutterisland</h3>
+                    <p>drama,action,adventure</p>
+                 </div>
+                </div>
+            
+            <h1 id="notfound">No result found</h1>
+        </div>
+        <footer>
+            <h1>365</h1>
+            <p>Powered by 365 Entertainment Portal 2019. All Rights Reserved.</p>
+   </footer>
+    <script src="movies.js"></script>
+</body>
+</html>
