@@ -1,1 +1,7 @@
+To run the project use "vs code" 
+step 1:Download the project
+step 2:open the project in vs code
+step 3:go to home.html
+step 4:update the paths
+step 4:run the project
 
