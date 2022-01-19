@@ -1,1 +1,4 @@
+*HOMEPGASSETS*
+this folder contains all the images
+html,css,javascript files are for the "Home page" 
 
